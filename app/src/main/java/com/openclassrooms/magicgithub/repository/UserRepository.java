@@ -9,7 +9,7 @@ import java.util.List;
 public class UserRepository {
 
     private final ApiService apiService; // TODO: A utiliser
-        // type de variable   variable de type ApiService
+        
     public UserRepository(ApiService apiService) {
         this.apiService = apiService;
     }
